@@ -15,23 +15,21 @@
     --space-3xs-2xs: clamp(0.25rem, 0.163rem + 0.4348vw, 0.5rem);
     --space-responsive: var(--space-l-xl);
 
-
-    /* Fonts */
-    --caption: clamp(0.8rem, 0.8449rem + -0.058vw, 0.8333rem);
-    --base: clamp(1rem, 1rem + 0vw, 1rem);
-    --headline: clamp(1.44rem, 1.3974rem + 0.213vw, 1.5625rem);
-    --title: clamp(2.0736rem, 1.9457rem + 0.6397vw, 2.4414rem);
-    --heading:clamp(2.986rem, 2.6977rem + 1.4412vw, 3.8147rem);
+    --caption: clamp(0.9rem, 0.9505rem + -0.0652vw, 0.9375rem);
+    --base: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+    --headline: clamp(1.62rem, 1.5721rem + 0.2397vw, 1.7578rem);
+    --title: clamp(2.3328rem, 2.1889rem + 0.7196vw, 2.7466rem);
+    --heading: clamp(2.7994rem, 2.5789rem + 1.1024vw, 3.4332rem);
 
     /* Grid */
     --grid-max-width: 78.00rem;
     --grid-gutter: var(--space-s-l, clamp(1rem, 0.6296rem + 1.8519vw, 2rem));
     
     /* Colors */
-    --background-color: #f2f2f2;
+    --background-color: #ffffff;
     --link-color: #000000; 
     --highlight-color: #0095b6;
-    --text-color: #333333;
+    --text-color: #1d1d1d;
     --social-color: #c60db4;  
     --icon-color:#1b1b1b;
   
@@ -242,8 +240,8 @@ article:active{
 .article-image{
     max-width: 100%;
     border-radius: var(--space-3xs-2xs);
-    height:clamp(4.5rem, 4.3261rem + 0.8696vw, 5rem);
-    width:clamp(6.5rem, 6.1522rem + 1.7391vw, 7.5rem);
+    height:clamp(4rem, 3.6522rem + 1.7391vw, 5rem);
+    width:clamp(6rem, 5.4783rem + 2.6087vw, 7.5rem);
 }
 
 .article-text {
